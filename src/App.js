@@ -1,29 +1,39 @@
 import React from 'react';
 import './style.css';
-import './img.png';
 
-var element = <h2 className="firstAttribute">google</h2>;
-
-var mystyle = {
-  fontSize: 50,
-  fontFamily: 'Courier',
-  color: '#003300',
+function formatName(user) {
+  return user.firstName + ' ' + user.lastName;
+}
+function getGreeting(user) {
+  if (user) {
+    return <h1>Hello, {formatName(user)}!</h1>;
+  }
+  return <h1>Hello, Stranger.</h1>;
+}
+const user = {
+  firstName: 'nivasan',
+  lastName: 'Perez',
 };
 
-var img = <img src="./img.png"></img>;
+const element = <h1 className="greeting">Hello, world!</h1>;
 
-var ref = 'https://www.javatpoint.com/react-components';
+const element1 = (
+  <a href="https://www.reactjs.org" target="blank">
+    {' '}
+    link{' '}
+  </a>
+);
+const element2 = React.createElement('h1', { className: 'hello' }, 'Nivasan');
 
 function App() {
   return (
     <div>
-      <h1 style={mystyle}>
-        <a href={ref}>
-          {element}
-          {2 + 2}
-        </a>
-        {img}
-      </h1>
+      {element}
+      {element1}
+      {element2}
+      <p>
+        <img src="" alt="nivasan" />
+      </p>
     </div>
   );
 }

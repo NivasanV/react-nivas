@@ -2,3 +2,10 @@ h1,
 p {
   font-family: Lato;
 }
+div {
+  color: rgb(0, 183, 255);
+  font-family: monospace;
+}
+.greeting{
+  color: blue;
+}
