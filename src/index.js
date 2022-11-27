@@ -8,4 +8,3 @@ import Render from './render';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
-ReactDOM.render(<Render />, document.getElementById('root1'));
