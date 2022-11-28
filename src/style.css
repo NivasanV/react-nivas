@@ -3,16 +3,16 @@ p {
   font-family: Lato;
 }
 div {
-  color: rgb(255, 115, 0);
+  color: rgb(60, 255, 0);
   font-family: monospace;
 }
 .greeting {
-  color: blue;
+  color: rgb(18, 18, 20);
 }
 .avatar {
-  height: 30px;
-  width: 30px;
-  background-color: blueviolet;
-  border-radius: 50%;
+  width: 80px;
+  text-align: center;
+  background-color: rgb(24, 23, 26);
+  border-radius:10px;
   margin-left: 25%;
 }
