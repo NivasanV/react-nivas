@@ -27,7 +27,7 @@ const user = {
   imageSize: 90,
 };
 
-export default function Profile() {
+function Profile() {
   return (
     <>
       <h1>{user.name}</h1>
