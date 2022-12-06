@@ -2,10 +2,6 @@ h1,
 p {
   font-family: Lato;
 }
-div {
-  color: rgb(60, 255, 0);
-  font-family: monospace;
-}
 .greeting {
   color: rgb(18, 18, 20);
 }
@@ -15,4 +11,7 @@ div {
   background-color: rgb(24, 23, 26);
   border-radius:10px;
   margin-left: 25%;
+}
+.Props{
+  color: brown;
 }
